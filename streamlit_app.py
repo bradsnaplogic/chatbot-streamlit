@@ -29,8 +29,8 @@ if prompt:
     # Add user message to chat history
     st.session_state.messages.append({"role": "user", "content": prompt})
 
-    URL = 'https://snapgpt.labs.snaplogicdev.com/api/1/rest/slsched/feed/snaplogic/projects/Brad%20Drysdale/GenAI_Builder_Custom_Query'
-    BEARER_TOKEN ='bvJMyNOkpYB10PQ0v55hPJCXXUxWv3NU'
+    URL = 'https://elastic.snaplogic.com/api/1/rest/slsched/feed/ConnectFasterInc/Brad%20Drysdale/Demos/GenAI_Builder_Retriever'
+    BEARER_TOKEN ='AgQdeXhKwmFQ8hA4jdNTIKKTBSVSUJVy'
 
     data = {"prompt" : prompt}
 
